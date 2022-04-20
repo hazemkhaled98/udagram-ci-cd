@@ -1,3 +1,5 @@
+cd www
+eb init udagram-api --platform node.js --region us-east-1
 eb use udagram-api-dev
 eb setenv DB_PORT=$DB_PORT
 eb setenv POSTGRES_DB=$POSTGRES_DB
@@ -10,3 +12,4 @@ eb setenv AWS_REGION=$AWS_REGION
 eb setenv AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
 eb setenv PORT=$PORT
 eb setenv AWS_BUCKET=$AWS_BUCKET
+eb deploy
