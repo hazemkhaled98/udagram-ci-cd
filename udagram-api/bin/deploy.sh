@@ -12,4 +12,5 @@ eb setenv AWS_REGION=$AWS_REGION
 eb setenv AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
 eb setenv PORT=$PORT
 eb setenv AWS_BUCKET=$AWS_BUCKET
+eb setenv JWT_SECRET=$JWT_SECRET
 eb deploy
