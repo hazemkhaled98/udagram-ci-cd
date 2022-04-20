@@ -2,10 +2,12 @@
 {
     "scripts": {
         "front-end:install": "cd udagram-frontend && npm --legacy-peer-deps install",
+        "front-end:test":"cd udagram-frontend && npm run test",
         "front-end:build": "cd udagram-frontend && npm run build",
         "front-end:deploy": "cd udagram-frontend && npm run deploy",
         "back-end:install": "cd udagram-api && npm --legacy-peer-deps install",
         "back-end:build": "cd udagram-api && npm run build",
+        "back-end:test": "cd udagram-api && npm run test",
         "back-end:deploy":"cd udagram-api && npm run deploy"
     },
     "devDependencies": {}
